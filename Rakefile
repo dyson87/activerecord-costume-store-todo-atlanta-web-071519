@@ -1,5 +1,6 @@
 require_relative 'config/environment.rb'
 require "sinatra/activerecord/rake"
+require "active_record"
 
 namespace :db do
 
